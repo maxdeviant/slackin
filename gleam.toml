@@ -1,0 +1,12 @@
+name = "slackin"
+version = "1.0.0"
+description = "A library for interacting with Slack."
+licenses = ["MIT"]
+repository = { type = "github", user = "maxdeviant", repo = "slackin" }
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+gleam_http = ">= 3.6.0 and < 4.0.0"
+
+[dev-dependencies]
+startest = ">= 0.2.0 and < 1.0.0"
